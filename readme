@@ -1,1 +1,3 @@
-ignore this
+Compiler and Linker commands:
+nasm -f elf64 <.asm file>
+gcc <.o file> -no-pie -o <executable name>
